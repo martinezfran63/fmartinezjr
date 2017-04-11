@@ -4,7 +4,10 @@ title: Career
 permalink: /career/
 ---
 
-Career information
+<p>Link to Linkedin</p>
+<a href="https://www.linkedin.com/in/francisco-martinez-jr-51206540/">
+  <img src="/images/linkedin.png" alt="Github" style="width:42px;height:42px;border:0">
+</a>
 
 
 <p>
