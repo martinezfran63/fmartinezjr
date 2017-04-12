@@ -5,7 +5,7 @@ permalink: /interests/
 ---
 
 <h3> Lover of technology</h3>
-<img src="/images/webdesign.jpg" alt="Panch" style="width:300px;height:300px;border:0">
+<img src="/images/webdesign.png" alt="Panch" style="width:300px;height:300px;border:0">
 <h4>
 <p> I love keeping up with new technologies!</p>
 <p>My technical skills include the following:</p>
@@ -28,7 +28,7 @@ permalink: /interests/
 </h4>
 
 <h3> Lover of food</h3>
-<img src="/images/wine.jpg" alt="Wine" style="width:300px;height:300px;border:0">
+<img src="/images/wine.png" alt="Wine" style="width:300px;height:300px;border:0">
 <h4>
 <p> I love trying new foods and new drinks!</p>
 
