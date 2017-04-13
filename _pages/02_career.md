@@ -14,6 +14,22 @@ permalink: /career/
 
 <p>Below is a link to Linkedin profile as well as my resume.</p>
 
+<h3>Education</h3>
+
+<p>Attended University of Colorado Denver. Graduated in 2015. Majored in Informaton Systems. Took courses to increase my exposure to programming. A list of courses I took is outlined below:</p>
+
+<ul>
+	<li>Building Business Applications ISMG 4200</li>
+	<li>Business Data Communications and Networking ISMG 4700</li>
+	<li>Data Structures and Program Design CSCI 2421</li>
+	<li>Designing for the Web ISMG 2800</li>
+	<li>Enterprise Data and Content Management ISMG 3500</li>
+	<li>Fundamentals of Computing CSCI 1410</li>
+</ul>
+ 
+
+
+<p>
 <a href="https://www.linkedin.com/in/francisco-martinez-jr-51206540/">
 <img src="/assets/images/linkedin.png" alt="Github" style="width:42px;height:42px;border:0">
 </a>
