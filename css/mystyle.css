@@ -2,13 +2,18 @@ fmystyle.css
 
 html {
     height: 100%;
+
 }
+
+
 body {
-  background-image: url("../assets/images/rinconcito_background_red.jpg");
-  background-repeat: no-repeat;
-  background-size:contain;
-
-
+  background-image: url("../assets/images/rinconcito_background_mixed.jpg");
+  background-size: 100% auto;
+  font-family: 'Noto Sans TC', sans-serif;
+  font-size: 14px;
+  color: white;
+  background-color: #7c0f0c;
+  word-wrap:break-word;
 }
 
 
@@ -30,55 +35,57 @@ h2 {
 }
 
 #menu tr td:nth-child(1) { 
-	color: #c22094;
+    color: #c22094;
     text-shadow: 3px 3px black;
-	font-size: 45px;
+    font-size: 45px;
 } 
 
 #menu tr td:nth-child(2) { 
-	color: #fcd330;
+    color: #fcd330;
     text-shadow: 2px 2px black;
-	font-size: 30px;
+    font-size: 30px;
 } 
 
 #menu tr td:nth-child(2) span { 
     padding-left:10px;
     color: white;
     font-size: 20px;
+
 } 
 
 
 #menu tr td:nth-child(3) { 
-	color: white;
+    color: white;
     text-shadow: 1px 1px #be572c;
-	font-size: 30px;
+    font-size: 30px;
 } 
 
-.floatLeft { width: 50%; float: left; }
-.floatRight {width: 50%; float: right; }
-.container { overflow: hidden; }
+.floatLeft {
+    width: 50%; float: left; height: 100%;
+    background: url("../assets/images/fruta.png") no-repeat; 
+ }
+
+
+.floatRight {
+    width: 50%; float: right; height:100%;
+    background: url("../assets/images/mango.png") no-repeat; 
+
+ }
+.container { 
+    overflow: hidden;
+
+   }
+
 
 ///////////////////////
-@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC');
 
 *
-{		
+{     
+
     margin: 0;
     padding: 0;
 }
-
-
-body
-{
-    font-family: 'Lato', sans-serif;
-    font-size: 14px;
-    color: white;
-    background-color: #7c0f0c;
-    word-wrap:break-word;
-}
-
-
-
 
 .animate {
     font-size: 140px;
