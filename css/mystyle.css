@@ -1,10 +1,9 @@
 fmystyle.css
 
-html {
+body, html {
     height: 100%;
 
 }
-
 
 body {
   background-image: url("../assets/images/rinconcito_background_mixed.jpg");
@@ -16,7 +15,6 @@ body {
   word-wrap:break-word;
 }
 
-
 h2 {
   text-shadow: 4px 4px black;
   font-size: 45px;
@@ -27,7 +25,6 @@ h2 {
   border: 0px ;
   padding: 8px;
 }
-
 
 #menu_2 td, #menu_2 th {
   border: 0px ;
@@ -75,6 +72,13 @@ h2 {
     overflow: hidden;
 
    }
+
+#imagerotation {
+
+   height: 100%;
+   width: auto;
+
+}
 
 
 ///////////////////////
