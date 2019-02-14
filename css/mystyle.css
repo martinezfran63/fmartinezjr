@@ -6,14 +6,34 @@ body, html {
 }
 
 body {
+  background-size: 100% auto;
+  font-family: 'Noto Sans TC', sans-serif;
+  font-size: 14px;
+  color: white;
+  background-repeat: repeat;
+  word-wrap:break-word;
+}
+
+.body_one {
+  background-image: url("../assets/images/rinconcito_background_mixed_2.jpg");
+  background-size: 100% auto;
+  font-family: 'Noto Sans TC', sans-serif;
+  font-size: 14px;
+  color: white;
+  background-repeat: repeat;
+  word-wrap:break-word;
+}
+
+.body_two {
   background-image: url("../assets/images/rinconcito_background_mixed.jpg");
   background-size: 100% auto;
   font-family: 'Noto Sans TC', sans-serif;
   font-size: 14px;
   color: white;
-  background-color: #7c0f0c;
+  background-repeat: repeat;
   word-wrap:break-word;
 }
+
 
 h2 {
   text-shadow: 4px 4px black;
@@ -59,13 +79,13 @@ h2 {
 
 .floatLeft {
     width: 50%; float: left; height: 100%;
-    background: url("../assets/images/fruta.png") no-repeat; 
+   // background: url("../assets/images/fruta.png") no-repeat; 
  }
 
 
 .floatRight {
     width: 50%; float: right; height:100%;
-    background: url("../assets/images/mango.png") no-repeat; 
+   // background: url("../assets/images/mango.png") no-repeat; 
 
  }
 .container { 
@@ -73,7 +93,7 @@ h2 {
 
    }
 
-#imagerotation {
+#full_screen_baby {
 
    height: 100%;
    width: auto;
@@ -92,9 +112,8 @@ h2 {
 }
 
 .animate {
-    font-size: 140px;
     margin: 180px 0 10;
-    border-bottom: 3px solid white;
+ //   border-bottom: 3px solid white;
 }
 
 .animate span {
@@ -164,12 +183,26 @@ h2 {
 
 /* Animation Five */
 .five span {
+    font-size: 140px;
     color: white;
     text-shadow: 4px 4px #be572c;
     opacity: 0;
     transform: translate(0, -100px) rotate(360deg) scale(0);
     animation: dropVanish .5s forwards;
 }
+
+/* Animation Four */
+.four span {
+    font-size: 60px;
+    color: white;
+    text-shadow: 4px 4px #be572c;
+    opacity: 0;
+    transform: translate(0, -100px) rotate(360deg) scale(0);
+    animation: dropVanish .5s forwards;
+}
+
+
+
 
 
 @keyframes dropVanish {
