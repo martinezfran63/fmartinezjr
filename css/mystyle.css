@@ -15,17 +15,7 @@ body {
 }
 
 .body_one {
-  background-image: url("../assets/images/rinconcito_background_mixed_2.jpg");
-  background-size: 100% auto;
-  font-family: 'Noto Sans TC', sans-serif;
-  font-size: 14px;
-  color: white;
-  background-repeat: repeat;
-  word-wrap:break-word;
-}
-
-.body_two {
-  background-image: url("../assets/images/rinconcito_background_mixed.jpg");
+  background-image: url("../assets/images/rinconcito_background_mixed.png");
   background-size: 100% auto;
   font-family: 'Noto Sans TC', sans-serif;
   font-size: 14px;
@@ -44,36 +34,40 @@ h2 {
 #menu td, #menu th {
   border: 0px ;
   padding: 8px;
+ //border: 2px solid white;
 }
 
-#menu_2 td, #menu_2 th {
-  border: 0px ;
-  padding: 8px;
+#menu th {
+  //background-image: url("../assets/images/wood.png");
+  //background-repeat: no-repeat;
+  //background-size: contain;
+  text-align: left;
+  //background-position: center; 
 }
 
-#menu tr td:nth-child(1) { 
+#menu tr td:nth-child(1), #menu tr td:nth-child(4) { 
     color: #c22094;
     text-shadow: 3px 3px black;
     font-size: 45px;
 } 
 
-#menu tr td:nth-child(2) { 
+#menu tr td:nth-child(2), #menu tr td:nth-child(5)  { 
     color: #fcd330;
     text-shadow: 2px 2px black;
     font-size: 30px;
+    line-height: 90%;
 } 
 
-#menu tr td:nth-child(2) span { 
-    padding-left:10px;
+#menu tr td:nth-child(2) span, #menu tr td:nth-child(5) span { 
     color: white;
     font-size: 20px;
 
 } 
 
 
-#menu tr td:nth-child(3) { 
+#menu tr td:nth-child(3), #menu tr td:nth-child(6) { 
     color: white;
-    text-shadow: 1px 1px #be572c;
+    text-shadow: 1px 1px black;
     font-size: 30px;
 } 
 
@@ -90,14 +84,12 @@ h2 {
  }
 .container { 
     overflow: hidden;
-
    }
 
 #full_screen_baby {
 
    height: 100%;
    width: auto;
-
 }
 
 
@@ -106,7 +98,6 @@ h2 {
 
 *
 {     
-
     margin: 0;
     padding: 0;
 }
@@ -119,7 +110,6 @@ h2 {
 .animate span {
     display: inline-block;
 }
-
 
 .animate span:nth-of-type(2) {
     animation-delay: .05s;
@@ -179,31 +169,15 @@ h2 {
     animation-delay: .95s;
 }
 
-  
-
-/* Animation Five */
-.five span {
-    font-size: 140px;
-    color: white;
-    text-shadow: 4px 4px #be572c;
-    opacity: 0;
-    transform: translate(0, -100px) rotate(360deg) scale(0);
-    animation: dropVanish .5s forwards;
-}
-
-/* Animation Four */
 .four span {
     font-size: 60px;
     color: white;
-    text-shadow: 4px 4px #be572c;
+    //text-shadow: 4px 4px #be572c;
+    text-shadow: 4px 4px black;
     opacity: 0;
     transform: translate(0, -100px) rotate(360deg) scale(0);
     animation: dropVanish .5s forwards;
 }
-
-
-
-
 
 @keyframes dropVanish {
     30% {
