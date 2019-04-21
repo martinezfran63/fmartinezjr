@@ -1,0 +1,11 @@
+runtime: php55
+
+
+handlers:
+
+- url: /assets
+  static_dir: assets
+- url: /.*
+  static_dir: _site/css
+- url: /.*
+  script: _site/index.html
