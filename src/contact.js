@@ -9,16 +9,25 @@ import ImageIcon from '@material-ui/icons/Image';
 import WorkIcon from '@material-ui/icons/Work';
 import Divider from '@material-ui/core/Divider';
 import Nav from "./components/nav.js";
-import Paper from "@material-ui/core/Paper";
 import Typography from "@material-ui/core/Typography";
 
-const useStyles = makeStyles(theme => ({
-  root: {
-    width: '100%',
-    maxWidth: 360,
-    backgroundColor: theme.palette.background.paper,
+const useStyles = makeStyles({
+  card: {
+    minWidth: 275,
   },
-}));
+  bullet: {
+    display: 'inline-block',
+    margin: '0 2px',
+    transform: 'scale(0.8)',
+  },
+  title: {
+    fontSize: 14,
+  },
+  pos: {
+    marginBottom: 12,
+  },
+});
+
 
 
 function Contact() {
@@ -27,7 +36,7 @@ function Contact() {
     <div>
       <Nav />
 
-          <Typography variant="h5" component="h3">
+          <Typography variant="h1" component="h3">
             Get in contact with Francisco
           </Typography>
        
@@ -53,12 +62,6 @@ function Contact() {
       <Divider variant="inset" component="li" />
       
     </List>
-
-
-
-
-
-
 
     </div>
   );

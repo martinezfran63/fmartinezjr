@@ -44,9 +44,6 @@ function Nav() {
             <Link color="inherit" href="/portfolio">
             Portfolio
             </Link>
-            <Link color="inherit" href="/interests">
-            Interests  
-            </Link>
             <Link color="inherit" href="/contact">
             Contact
             </Link>

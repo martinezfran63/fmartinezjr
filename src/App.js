@@ -11,7 +11,6 @@ import Link from "@material-ui/core/Link";
 import Nav from "./components/nav.js";
 import Career from "./career.js";
 import Contact from "./contact.js";
-import Interests from "./interests.js";
 import Homepage from "./homepage.js";
 import Portfolio from "./portfolio.js";
 
@@ -23,7 +22,6 @@ function App() {
           <Route path="/" exact component={Homepage} />
           <Route path="/career" component={Career} />
           <Route path="/portfolio" component={Portfolio} />
-          <Route path="/interests" component={Interests} />
           <Route path="/contact" component={Contact} />
         </Switch>
       </Router>
