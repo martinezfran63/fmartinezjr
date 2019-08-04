@@ -1,4 +1,9 @@
 import React from 'react';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
 import Typing from 'react-typing-animation';
 import styled from "styled-components";
 import { createGlobalStyle } from "styled-components";
@@ -8,44 +13,27 @@ import Typography from '@material-ui/core/Typography';
 import Breadcrumbs from '@material-ui/core/Breadcrumbs';
 import Link from '@material-ui/core/Link';
 import Nav from './components/nav.js';
-
-const useStyles = makeStyles(theme => ({
-  root: {
-    justifyContent: 'center',
-    flexWrap: 'wrap',
-  },
-  paper: {
-    padding: theme.spacing(1, 2),
-  },
-}));
-
-
-const GlobalStyles = createGlobalStyle`
-  body {
-    @import url('https://fonts.googleapis.com/css?family=Red+Hat+Text&display=swap');
-    font-family: 'Red Hat Text', sans-serif;
-  }
-  `
-
-const H1 = styled.h1`
-font-weight: bold;
-color: black;
-font-size: 14em
-margin: 0.5rem 1rem;
-`;
-
+import Career from './career.js';
+import Contact from './contact.js';
+import Nutrition from './nutrition.js';
+import Interests from './interests.js';
+import Homepage from './homepage.js';
+import Portfolio from './portfolio.js';
 
 function App() {
-  const classes = useStyles();
   return (
     <div>
+  <Router>
 
-    <Nav/>
-   <Typing speed={50}>
-     <GlobalStyles />
-    <H1>francisco martinez jr</H1>
-  </Typing>
+        <Switch> 
+          <Route path="/" exact component={Homepage} />
+          <Route path="/career" component={Career} />
+          <Route path="/portfolio" component={Portfolio} />
+          <Route path="/interests" component={Interests} />
+          <Route path="/contact" component={Contact} />
+        </Switch>
 
+      </Router>
   </div>
 
   );
