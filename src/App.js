@@ -22,7 +22,7 @@ function App() {
   return (
    <Typing speed={50}>
      <GlobalStyles />
-    <H1>Francisco Martinez Jr</H1>
+    <H1>francisco martinez jr</H1>
   </Typing>
   );
 }
