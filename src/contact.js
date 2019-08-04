@@ -1,66 +1,119 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
-import List from "@material-ui/core/List";
-import ListItem from "@material-ui/core/ListItem";
-import ListItemText from "@material-ui/core/ListItemText";
-import ListItemAvatar from "@material-ui/core/ListItemAvatar";
-import Avatar from "@material-ui/core/Avatar";
-import ImageIcon from "@material-ui/icons/Image";
-import WorkIcon from "@material-ui/icons/Work";
-import Divider from "@material-ui/core/Divider";
 import Nav from "./components/nav.js";
-import Typography from "@material-ui/core/Typography";
+import Card from '@material-ui/core/Card';
+import CardActionArea from '@material-ui/core/CardActionArea';
+import CardActions from '@material-ui/core/CardActions';
+import CardMedia from '@material-ui/core/CardMedia';
+import Button from '@material-ui/core/Button';
+import Typography from '@material-ui/core/Typography';
+import Email_Image from "./images/email.png";
+import Phone_Image from "./images/phone.png";
+import Resume_Image from "./images/resume.png";
+import Linkedin_Image from "./images/linkedin.png";
+import Github_Image from "./images/github.png";
+import Grid from '@material-ui/core/Grid';
 
 const useStyles = makeStyles({
   card: {
-    minWidth: 275
+    maxWidth: 345,
   },
-  bullet: {
-    display: "inline-block",
-    margin: "0 2px",
-    transform: "scale(0.8)"
-  },
-  title: {
-    fontSize: 14
-  },
-  pos: {
-    marginBottom: 12
-  }
 });
 
 function Contact() {
   const classes = useStyles();
+
   return (
     <div>
       <Nav />
-
       <Typography variant="h1" component="h3">
         Contact
       </Typography>
 
-      <List className={classes.root}>
-        <ListItem>
-          <ListItemAvatar>
-            <Avatar>
-              <ImageIcon />
-            </Avatar>
-          </ListItemAvatar>
-          <ListItemText primary="Phone Number" secondary="720-443-8668" />
-        </ListItem>
-        <Divider variant="inset" component="li" />
-        <ListItem>
-          <ListItemAvatar>
-            <Avatar>
-              <WorkIcon />
-            </Avatar>
-          </ListItemAvatar>
-          <ListItemText
-            primary="Email Addresss"
-            secondary="martinezfran63@gmail.com"
-          />
-        </ListItem>
-        <Divider variant="inset" component="li" />
-      </List>
+      <Card className={classes.card}>
+      <CardActionArea>
+        <CardMedia
+          component="img"
+          alt="Email"
+          height="140"
+          image={Email_Image}
+          title="Email"
+        />
+      </CardActionArea>
+      <CardActions>
+        <Button size="small" color="primary">
+          Email
+        </Button>
+      </CardActions>
+    </Card>
+    <Card className={classes.card}>
+      <CardActionArea>
+        <CardMedia
+          component="img"
+          alt="Phone"
+          height="140"
+          image={Phone_Image}
+          title="Phone"
+        />
+      </CardActionArea>
+      <CardActions>
+        <Button size="small" color="primary">
+          Phone
+        </Button>
+      </CardActions>
+    </Card>
+    <Card className={classes.card}>
+      <CardActionArea>
+        <CardMedia
+          component="img"
+          alt="Resume"
+          height="140"
+          image={Resume_Image}
+          title="Resume"
+        />
+      </CardActionArea>
+      <CardActions>
+        <Button size="small" color="primary">
+          Resume
+        </Button>
+      </CardActions>
+    </Card>
+    <Card className={classes.card}>
+      <CardActionArea>
+        <CardMedia
+          component="img"
+          alt="Github"
+          height="140"
+          image={Github_Image}
+          title="Github"
+        />
+      </CardActionArea>
+      <CardActions>
+        <Button size="small" color="primary">
+          Github
+        </Button>
+      </CardActions>
+    </Card>
+    <Card className={classes.card}>
+      <CardActionArea>
+        <CardMedia
+          component="img"
+          alt="Linkedin"
+          height="140"
+          image={Linkedin_Image}
+          title="Linkedin"
+        />
+      </CardActionArea>
+      <CardActions>
+        <Button size="small" color="primary">
+        Linkedin
+        </Button>
+      </CardActions>
+    </Card>
+
+    
+
+
     </div>
   );
 }
