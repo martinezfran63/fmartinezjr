@@ -35,6 +35,9 @@ function Nav() {
     <div className={classes.root}>
         <Paper elevation={0} className={classes.paper}>
           <Breadcrumbs aria-label="breadcrumb">
+           <Link color="inherit" href="/" >
+            Home       
+            </Link>
             <Link color="inherit" href="/career" >
             Career       
             </Link>
