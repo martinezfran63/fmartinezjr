@@ -1,47 +1,65 @@
-import React from "react";
-import Typing from "react-typing-animation";
-import styled from "styled-components";
-import { createGlobalStyle } from "styled-components";
-import { makeStyles } from "@material-ui/core/styles";
+import React from 'react';
+import { makeStyles } from '@material-ui/core/styles';
+import List from '@material-ui/core/List';
+import ListItem from '@material-ui/core/ListItem';
+import ListItemText from '@material-ui/core/ListItemText';
+import ListItemAvatar from '@material-ui/core/ListItemAvatar';
+import Avatar from '@material-ui/core/Avatar';
+import ImageIcon from '@material-ui/icons/Image';
+import WorkIcon from '@material-ui/icons/Work';
+import Divider from '@material-ui/core/Divider';
+import Nav from "./components/nav.js";
 import Paper from "@material-ui/core/Paper";
 import Typography from "@material-ui/core/Typography";
-import Breadcrumbs from "@material-ui/core/Breadcrumbs";
-import Link from "@material-ui/core/Link";
-import Nav from "./components/nav.js";
 
 const useStyles = makeStyles(theme => ({
   root: {
-    justifyContent: "center",
-    flexWrap: "wrap"
+    width: '100%',
+    maxWidth: 360,
+    backgroundColor: theme.palette.background.paper,
   },
-  paper: {
-    padding: theme.spacing(1, 2)
-  }
 }));
 
-const GlobalStyles = createGlobalStyle`
-    body {
-      @import url('https://fonts.googleapis.com/css?family=Red+Hat+Text&display=swap');
-      font-family: 'Red Hat Text', sans-serif;
-    }
-    `;
 
 function Contact() {
   const classes = useStyles();
   return (
     <div>
       <Nav />
-      <div className={classes.root}>
-        <Paper className={classes.root}>
+
           <Typography variant="h5" component="h3">
-            This is a sheet of paper.
+            Get in contact with Francisco
           </Typography>
-          <Typography component="p">
-            Paper can be used to build surface or other elements for your
-            application.
-          </Typography>
-        </Paper>
-      </div>
+       
+          
+      <List className={classes.root}>
+      <ListItem>
+        <ListItemAvatar>
+          <Avatar>
+            <ImageIcon />
+          </Avatar>
+        </ListItemAvatar>
+        <ListItemText primary="Phone Number" secondary="720-443-8668" />
+      </ListItem>
+      <Divider variant="inset" component="li" />
+      <ListItem>
+        <ListItemAvatar>
+          <Avatar>
+            <WorkIcon />
+          </Avatar>
+        </ListItemAvatar>
+        <ListItemText primary="Email Addresss" secondary="martinezfran63@gmail.com" />
+      </ListItem>
+      <Divider variant="inset" component="li" />
+      
+    </List>
+
+
+
+
+
+
+
     </div>
   );
 }
