@@ -12,7 +12,7 @@ import Phone_Image from "./images/phone.png";
 import Resume_Image from "./images/resume.png";
 import Linkedin_Image from "./images/linkedin.png";
 import Github_Image from "./images/github.png";
-import Grid from '@material-ui/core/Grid';
+
 
 const useStyles = makeStyles({
   card: {

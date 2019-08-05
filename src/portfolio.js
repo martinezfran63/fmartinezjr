@@ -6,7 +6,7 @@ function Portfolio() {
   return (
     <div>
       <Nav />
-      <Typography variant="h1" component="h3">
+      <Typography variant="h1" component="h3" gutterBottom="true">
         Portfolio
       </Typography>
     </div>
