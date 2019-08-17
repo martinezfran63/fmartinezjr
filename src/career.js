@@ -8,7 +8,6 @@ import Grid from "@material-ui/core/Grid";
 import Paper from "@material-ui/core/Paper";
 import ButtonBase from "@material-ui/core/ButtonBase";
 import { makeStyles } from "@material-ui/core/styles";
-
 const useStyles = makeStyles(theme => ({
   root: {
     flexGrow: 1
@@ -30,7 +29,6 @@ function Career() {
         Career
       </Typography>
       <CareerNav />
-      <WorkExperience />
     </div>
   );
 }
