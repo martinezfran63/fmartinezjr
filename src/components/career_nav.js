@@ -10,6 +10,8 @@ import Link from "@material-ui/core/Link";
 import Education from "../career/education.js";
 import WorkExperience from "../career/work_experience";
 import Button from '@material-ui/core/Button';
+import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
+import ChevronRightIcon from '@material-ui/icons/ChevronRight';
 
 
 class CareerNav extends React.Component {
@@ -47,12 +49,11 @@ class CareerNav extends React.Component {
       <div>
         <div className>
           <Paper elevation={0}>
-          <Button variant="outlined" onClick={this.handleClick}><Link>View: {this.state.link} </Link></Button>
-          <h1> {this.state.title}</h1>
-
-
-          {this.state.on && <Education/>}
-          {!this.state.on && <WorkExperience />}
+          
+          <ChevronLeftIcon onClick={this.handleClick}><Link>Work Experience {this.state.link} </Link></ChevronLeftIcon>
+          <ChevronRightIcon onClick={this.handleClick}><Link>Work Experience {this.state.link} </Link></ChevronRightIcon>
+          {this.state.on && <Education title="Education"/>}
+          {!this.state.on && <WorkExperience title="Work Experience" />}
 
           </Paper>
         </div>

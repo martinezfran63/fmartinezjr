@@ -17,11 +17,12 @@ const useStyles = makeStyles(theme => ({
 }));
 
 
-function WorkExperience() {
+function WorkExperience(props) {
   const classes = useStyles();
 
   return (
     <div>
+       <Typography variant="h3" component="h3">{props.title}</Typography>
       <div className={classes.root}>
       <Paper className={classes.paper}>
         <Grid container spacing={2}>
