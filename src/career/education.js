@@ -17,11 +17,13 @@ const useStyles = makeStyles(theme => ({
 }));
 
 
-function Education() {
+function Education(title) {
   const classes = useStyles();
 
   return (
     <div>
+     <h1>Education</h1>
+
       <div className={classes.root}>
       <Paper className={classes.paper}>
         <Grid container spacing={2}>
