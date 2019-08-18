@@ -12,6 +12,7 @@ import Phone_Image from "./images/phone.png";
 import Resume_Image from "./images/resume.png";
 import Linkedin_Image from "./images/linkedin.png";
 import Github_Image from "./images/github.png";
+import Resume from "./documents/Francisco_Martinez_Resume.docx";
 import Paper from "@material-ui/core/Paper";
 import Grid from "@material-ui/core/Grid";
 import styled from "styled-components";
@@ -64,7 +65,9 @@ function Contact() {
           </Grid>
           <Grid item xs={3}>
             <Paper className={classes.paper}>
+            <a href={Resume} download>
               <Image src={Resume_Image} alt="Resume" />
+              </a>
               <Typography variant="h6" component="h3">
                 Resume
               </Typography>
