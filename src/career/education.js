@@ -22,7 +22,7 @@ function Education(props) {
 
   return (
     <div>
-      <Typography variant="h3" component="h3">{props.title}</Typography>
+      <Typography variant="h5" component="h5">{props.title}</Typography>
       <div className={classes.root}>
       <Paper className={classes.paper}>
         <Grid container spacing={2}>
