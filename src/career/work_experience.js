@@ -33,7 +33,7 @@ function WorkExperience(props) {
                   Weedmaps
                 </Typography>
                 <Typography variant="body2" gutterBottom>
-                 Quality Engineering Analyst
+                 Quality Engineer
                 </Typography>
                 <Typography variant="body2" color="textSecondary">
                 <li>Manual black box testing for two Point of Sale applications in the cannabis industry</li>

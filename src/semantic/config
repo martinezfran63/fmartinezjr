@@ -1,0 +1,10 @@
+/*******************************
+            Themes
+*******************************/
+ /* Global */
+@site        : 'default';
+@reset       : 'default';
+ /* Elements */
+@button      : 'default';
+@container   : 'default';
+@icon        : 'spanish';
