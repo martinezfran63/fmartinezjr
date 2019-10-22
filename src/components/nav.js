@@ -1,13 +1,10 @@
 import React from 'react';
-import Typing from 'react-typing-animation';
-import styled from "styled-components";
 import { createGlobalStyle } from "styled-components";
 import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
-import Typography from '@material-ui/core/Typography';
 import Breadcrumbs from '@material-ui/core/Breadcrumbs';
 import Link from '@material-ui/core/Link';
-
+import redhat from '../fonts/Red_Hat_Text/RedHatText-Regular.ttf';
 
 const useStyles = makeStyles(theme => ({
     root: {
@@ -22,7 +19,7 @@ const useStyles = makeStyles(theme => ({
   
   const GlobalStyles = createGlobalStyle`
     body {
-      @import url('https://fonts.googleapis.com/css?family=Red+Hat+Text&display=swap');
+      @import url(${redhat});
       font-family: 'Red Hat Text', sans-serif;
     }
     `
@@ -31,6 +28,7 @@ function Nav() {
     const classes = useStyles();
     return (
       <div>
+        <GlobalStyles/>
   
     <div className={classes.root}>
         <Paper elevation={0} className={classes.paper}>

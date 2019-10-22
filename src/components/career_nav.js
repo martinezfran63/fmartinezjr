@@ -1,15 +1,8 @@
 import React from "react";
-import Typing from "react-typing-animation";
-import styled from "styled-components";
-import { createGlobalStyle } from "styled-components";
-import { makeStyles } from "@material-ui/core/styles";
 import Paper from "@material-ui/core/Paper";
-import Typography from "@material-ui/core/Typography";
-import Breadcrumbs from "@material-ui/core/Breadcrumbs";
 import Link from "@material-ui/core/Link";
 import Education from "../career/education.js";
 import WorkExperience from "../career/work_experience";
-import Button from "@material-ui/core/Button";
 import ChevronLeftIcon from "@material-ui/icons/ChevronLeft";
 import ChevronRightIcon from "@material-ui/icons/ChevronRight";
 import Grid from "@material-ui/core/Grid";
