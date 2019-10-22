@@ -30,17 +30,17 @@ function Portfolio() {
       </Typography>
       <Paper className={classes.root}>
         <Typography variant="h4" component="h3">
-          <Link href="http://rinconcito.fmartinezjr.com">
+          <Link href="https://expo.io/@martinezfran63/Rinconcito">
             Rinconcito Restaurant Menu
           </Link>
         </Typography>
         <Typography component="p">
-          This digital signage lets customers knows the items they can order.
+          This ipad application allows customers to view all the menu items offered by the restaurant. 
         </Typography>
         <Image src={Rinconcito} alt="Logo" />
         <Divider variant="fullWidth" />
         <Typography variant="h4" component="h3">
-          <Link href="http://allegiantconstructionpros.com/">
+          <Link href="http://130.211.195.127/">
             Allegiant Construction Professionals
           </Link>
         </Typography>
