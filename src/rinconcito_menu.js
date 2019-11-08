@@ -32,10 +32,11 @@ const useStyles = makeStyles(theme => ({
 
 function Rinconcito_Menu() {
   const classes = useStyles();
-
+  
   return (
   <Image src={Menu_1} alt="Menu_1" />
   )
+
 }
 
 export default Rinconcito_Menu;
