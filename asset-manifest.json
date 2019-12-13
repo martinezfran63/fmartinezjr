@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.js": "/fmartinezjr/static/js/main.2f049213.chunk.js",
-    "main.js.map": "/fmartinezjr/static/js/main.2f049213.chunk.js.map",
-    "runtime~main.js": "/fmartinezjr/static/js/runtime~main.56c0fa8c.js",
-    "runtime~main.js.map": "/fmartinezjr/static/js/runtime~main.56c0fa8c.js.map",
-    "static/js/2.826884ad.chunk.js": "/fmartinezjr/static/js/2.826884ad.chunk.js",
-    "static/js/2.826884ad.chunk.js.map": "/fmartinezjr/static/js/2.826884ad.chunk.js.map",
-    "index.html": "/fmartinezjr/index.html",
-    "precache-manifest.03f900b1ee2dcf508a6e92d540ddd339.js": "/fmartinezjr/precache-manifest.03f900b1ee2dcf508a6e92d540ddd339.js",
-    "service-worker.js": "/fmartinezjr/service-worker.js",
-    "static/media/AC&DP.png": "/fmartinezjr/static/media/AC&DP.c6af2dae.png",
-    "static/media/Francisco_Martinez.pdf": "/fmartinezjr/static/media/Francisco_Martinez.fff26fd5.pdf",
-    "static/media/linkedin.png": "/fmartinezjr/static/media/linkedin.0221a9fc.png",
-    "static/media/menu_1_frutuas_preparadas.jpg": "/fmartinezjr/static/media/menu_1_frutuas_preparadas.e4e99b93.jpg",
-    "static/media/rinconcito_logo_big.png": "/fmartinezjr/static/media/rinconcito_logo_big.c3624fb1.png"
+    "main.js": "/static/js/main.2f049213.chunk.js",
+    "main.js.map": "/static/js/main.2f049213.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.1108afca.chunk.js": "/static/js/2.1108afca.chunk.js",
+    "static/js/2.1108afca.chunk.js.map": "/static/js/2.1108afca.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.fb9118008139858ce9e89b8c71d8a9a0.js": "/precache-manifest.fb9118008139858ce9e89b8c71d8a9a0.js",
+    "service-worker.js": "/service-worker.js",
+    "static/media/AC&DP.png": "/static/media/AC&DP.c6af2dae.png",
+    "static/media/Francisco_Martinez.pdf": "/static/media/Francisco_Martinez.fff26fd5.pdf",
+    "static/media/linkedin.png": "/static/media/linkedin.0221a9fc.png",
+    "static/media/menu_1_frutuas_preparadas.jpg": "/static/media/menu_1_frutuas_preparadas.e4e99b93.jpg",
+    "static/media/rinconcito_logo_big.png": "/static/media/rinconcito_logo_big.c3624fb1.png"
   }
 }
