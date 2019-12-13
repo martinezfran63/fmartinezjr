@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/static/js/main.841ce945.chunk.js",
-    "main.js.map": "/static/js/main.841ce945.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.bff42232.chunk.js": "/static/js/2.bff42232.chunk.js",
-    "static/js/2.bff42232.chunk.js.map": "/static/js/2.bff42232.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.61a1bab7340c703b571019e7dcb6f60d.js": "/precache-manifest.61a1bab7340c703b571019e7dcb6f60d.js",
-    "service-worker.js": "/service-worker.js",
-    "static/media/AC&DP.png": "/static/media/AC&DP.c6af2dae.png",
-    "static/media/Francisco_Martinez.pdf": "/static/media/Francisco_Martinez.b1f47403.pdf",
-    "static/media/RedHatText-Regular.ttf": "/static/media/RedHatText-Regular.0f5c6fd4.ttf",
-    "static/media/linkedin.png": "/static/media/linkedin.0221a9fc.png",
-    "static/media/menu_1_frutuas_preparadas.jpg": "/static/media/menu_1_frutuas_preparadas.e4e99b93.jpg",
-    "static/media/rinconcito_logo_big.png": "/static/media/rinconcito_logo_big.c3624fb1.png"
+    "main.js": "/martinezfran63.github.io/static/js/main.051d7bdc.chunk.js",
+    "main.js.map": "/martinezfran63.github.io/static/js/main.051d7bdc.chunk.js.map",
+    "runtime~main.js": "/martinezfran63.github.io/static/js/runtime~main.16b69401.js",
+    "runtime~main.js.map": "/martinezfran63.github.io/static/js/runtime~main.16b69401.js.map",
+    "static/js/2.cd577159.chunk.js": "/martinezfran63.github.io/static/js/2.cd577159.chunk.js",
+    "static/js/2.cd577159.chunk.js.map": "/martinezfran63.github.io/static/js/2.cd577159.chunk.js.map",
+    "index.html": "/martinezfran63.github.io/index.html",
+    "precache-manifest.87b9971901e2afda66130af3719f37d6.js": "/martinezfran63.github.io/precache-manifest.87b9971901e2afda66130af3719f37d6.js",
+    "service-worker.js": "/martinezfran63.github.io/service-worker.js",
+    "static/media/AC&DP.png": "/martinezfran63.github.io/static/media/AC&DP.c6af2dae.png",
+    "static/media/Francisco_Martinez.pdf": "/martinezfran63.github.io/static/media/Francisco_Martinez.b1f47403.pdf",
+    "static/media/RedHatText-Regular.ttf": "/martinezfran63.github.io/static/media/RedHatText-Regular.0f5c6fd4.ttf",
+    "static/media/linkedin.png": "/martinezfran63.github.io/static/media/linkedin.0221a9fc.png",
+    "static/media/menu_1_frutuas_preparadas.jpg": "/martinezfran63.github.io/static/media/menu_1_frutuas_preparadas.e4e99b93.jpg",
+    "static/media/rinconcito_logo_big.png": "/martinezfran63.github.io/static/media/rinconcito_logo_big.c3624fb1.png"
   }
 }
