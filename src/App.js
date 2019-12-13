@@ -22,13 +22,13 @@ function App() {
 
   return (
     <div>
-      <HashRouter basename='/'>
+      <HashRouter>
         <Switch>
-          <Route path="/" exact component={Homepage} />
-          <Route path="/career" component={Career} />
-          <Route path="/portfolio" component={Portfolio} />
-          <Route path="/contact" component={Contact} />
-          <Route path="/rinconcito_menu" component={Rinconcito_Menu} />
+          <Route exact path="/" component={Homepage} />
+          <Route exact path="/career" component={Career} />
+          <Route exact path="/portfolio" component={Portfolio} />
+          <Route exact path="/contact" component={Contact} />
+          <Route exact path="/rinconcito_menu" component={Rinconcito_Menu} />
         </Switch>
       </HashRouter>
     </div>
