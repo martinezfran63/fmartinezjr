@@ -1,15 +1,15 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "32cac1fdabd2d69562b5dfb0168ed204",
+    "revision": "d0b162a5f271faeaecf064ab2e9c7afc",
     "url": "/fmartinezjr/index.html"
   },
   {
-    "revision": "b0b027b1c715888301fd",
-    "url": "/fmartinezjr/static/js/2.bd1c312c.chunk.js"
+    "revision": "ad230aa660a4f85b1ce6",
+    "url": "/fmartinezjr/static/js/2.826884ad.chunk.js"
   },
   {
-    "revision": "0b472106ce65235e12b4",
-    "url": "/fmartinezjr/static/js/main.8add7d6a.chunk.js"
+    "revision": "e4170f7cbacf9ddacc5a",
+    "url": "/fmartinezjr/static/js/main.7dac528f.chunk.js"
   },
   {
     "revision": "51f0a02feb4135a1a68e",
@@ -20,12 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fmartinezjr/static/media/AC&DP.c6af2dae.png"
   },
   {
-    "revision": "b1f47403ce8b81453b258a84cf5d7308",
-    "url": "/fmartinezjr/static/media/Francisco_Martinez.b1f47403.pdf"
-  },
-  {
-    "revision": "0f5c6fd408864e796d98de8e3e2e1251",
-    "url": "/fmartinezjr/static/media/RedHatText-Regular.0f5c6fd4.ttf"
+    "revision": "fff26fd52b224eee105f8021e4dfdb6e",
+    "url": "/fmartinezjr/static/media/Francisco_Martinez.fff26fd5.pdf"
   },
   {
     "revision": "0221a9fc59db2b5697888b90ad0b390a",
