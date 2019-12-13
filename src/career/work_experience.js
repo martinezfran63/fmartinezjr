@@ -52,7 +52,7 @@ function WorkExperience(props) {
               </Grid>
             </Grid>
             <Grid item>
-              <Typography variant="subtitle1">May 2017 - Present</Typography>
+              <Typography variant="subtitle1">May 2017 - December 2019</Typography>
             </Grid>
           </Grid>
         </Grid>
