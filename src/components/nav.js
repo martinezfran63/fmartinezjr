@@ -36,13 +36,13 @@ function Nav() {
            <Link color="inherit" href="/" >
             Home       
             </Link>
-            <Link color="inherit" href="/career" >
+            <Link color="inherit" href="/#/career" >
             Career       
             </Link>
-            <Link color="inherit" href="/portfolio">
+            <Link color="inherit" href="/#/portfolio">
             Portfolio
             </Link>
-            <Link color="inherit" href="/contact">
+            <Link color="inherit" href="/#/contact">
             Contact
             </Link>
           </Breadcrumbs>
