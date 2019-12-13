@@ -2,6 +2,7 @@
   "name": "martinezfran63.github.io",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://martinezfran63.github.io/fmartinezjr",
   "dependencies": {
     "@material-ui/core": "^4.3.1",
     "@material-ui/icons": "^4.2.1",
