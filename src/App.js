@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { HashRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter, Switch, Route } from "react-router-dom";
 import Career from "./career.js";
 import Contact from "./contact.js";
 import Homepage from "./homepage.js";
@@ -22,7 +22,7 @@ function App() {
 
   return (
     <div>
-      <Router>
+      <HashRouter basename='/'>
         <Switch>
           <Route path="/" exact component={Homepage} />
           <Route path="/career" component={Career} />
@@ -30,7 +30,7 @@ function App() {
           <Route path="/contact" component={Contact} />
           <Route path="/rinconcito_menu" component={Rinconcito_Menu} />
         </Switch>
-      </Router>
+      </HashRouter>
     </div>
   );
 }
