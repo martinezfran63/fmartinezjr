@@ -1,15 +1,15 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "feb94cd426e684124cdbf82b36d48b09",
+    "revision": "45058848c3594b08991aae4821cc221f",
     "url": "/index.html"
   },
   {
-    "revision": "4d88642e0930b78656db",
-    "url": "/static/js/2.1108afca.chunk.js"
+    "revision": "b7c86899ee014721e1fe",
+    "url": "/static/js/2.cf3909ca.chunk.js"
   },
   {
-    "revision": "23bb4917ae788fc4480d",
-    "url": "/static/js/main.2f049213.chunk.js"
+    "revision": "9a2268c56a4783cf3745",
+    "url": "/static/js/main.43dd7eb8.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -22,6 +22,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "fff26fd52b224eee105f8021e4dfdb6e",
     "url": "/static/media/Francisco_Martinez.fff26fd5.pdf"
+  },
+  {
+    "revision": "2a598770f9b96f73f80ae74267ecc7f7",
+    "url": "/static/media/eleftheria_big.2a598770.png"
   },
   {
     "revision": "0221a9fc59db2b5697888b90ad0b390a",

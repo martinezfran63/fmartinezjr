@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.js": "/static/js/main.2f049213.chunk.js",
-    "main.js.map": "/static/js/main.2f049213.chunk.js.map",
+    "main.js": "/static/js/main.43dd7eb8.chunk.js",
+    "main.js.map": "/static/js/main.43dd7eb8.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.1108afca.chunk.js": "/static/js/2.1108afca.chunk.js",
-    "static/js/2.1108afca.chunk.js.map": "/static/js/2.1108afca.chunk.js.map",
+    "static/js/2.cf3909ca.chunk.js": "/static/js/2.cf3909ca.chunk.js",
+    "static/js/2.cf3909ca.chunk.js.map": "/static/js/2.cf3909ca.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.fb9118008139858ce9e89b8c71d8a9a0.js": "/precache-manifest.fb9118008139858ce9e89b8c71d8a9a0.js",
+    "precache-manifest.f3111184f0d44f08db7a0679f1db2f9d.js": "/precache-manifest.f3111184f0d44f08db7a0679f1db2f9d.js",
     "service-worker.js": "/service-worker.js",
     "static/media/AC&DP.png": "/static/media/AC&DP.c6af2dae.png",
     "static/media/Francisco_Martinez.pdf": "/static/media/Francisco_Martinez.fff26fd5.pdf",
+    "static/media/eleftheria_big.png": "/static/media/eleftheria_big.2a598770.png",
     "static/media/linkedin.png": "/static/media/linkedin.0221a9fc.png",
     "static/media/menu_1_frutuas_preparadas.jpg": "/static/media/menu_1_frutuas_preparadas.e4e99b93.jpg",
     "static/media/rinconcito_logo_big.png": "/static/media/rinconcito_logo_big.c3624fb1.png"
