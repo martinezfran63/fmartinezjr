@@ -6,6 +6,7 @@ import Paper from "@material-ui/core/Paper";
 import { Divider } from "@material-ui/core";
 import ACDP from "./images/AC&DP.png";
 import Rinconcito from "./images/rinconcito_logo_big.png";
+import Eleftheria from "./images/eleftheria_big.png";
 import styled from "styled-components";
 import Link from "@material-ui/core/Link";
 
@@ -29,6 +30,17 @@ function Portfolio() {
         Portfolio
       </Typography>
       <Paper className={classes.root}>
+
+      <Typography variant="h4" component="h3">
+          <Link href="http://34.82.230.157:8080">
+          Eleftheria Personal Finance
+          </Link>
+        </Typography>
+        <Typography component="p">
+          Application that helps customers manage their finances. More functionality comming soon! 
+        </Typography>
+        <Image src={Eleftheria} alt="Logo" />
+        <Divider variant="fullWidth" />
         <Typography variant="h4" component="h3">
           <Link href="https://expo.io/@martinezfran63/Rinconcito">
             Rinconcito Restaurant Menu
@@ -38,9 +50,11 @@ function Portfolio() {
           This ipad application allows customers to view all the menu items offered by the restaurant. 
         </Typography>
         <Image src={Rinconcito} alt="Logo" />
+
+
         <Divider variant="fullWidth" />
         <Typography variant="h4" component="h3">
-          <Link href="http://130.211.195.127/">
+          <Link href="https://martinezfran63.github.io/allegiant_construction_pros">
             Allegiant Construction Professionals
           </Link>
         </Typography>
@@ -48,6 +62,8 @@ function Portfolio() {
           Construction business specializing in drywall
         </Typography>
         <Image src={ACDP} alt="Logo" />
+
+
       </Paper>
     </div>
   );
